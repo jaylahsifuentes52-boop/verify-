@@ -3,7 +3,7 @@ import discord
 from discord import app_commands
 from discord.ext import commands
 
-TOKEN = os.getenv("DISCORD_TOKEN MTU0ODc3ODcyMDQzOTk1OTcwMg.GlrK4R.YD4Wd-l2SplcfEQCAwE32u8gQXWIGGSO3OSd7w")
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 if not TOKEN:
     raise RuntimeError("DISCORD_TOKEN is not set in Render.")
